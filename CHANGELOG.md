@@ -1,5 +1,10 @@
 ## Release Notes
 
+### 0.10.6
+
+This patch release fixes a [memory leak](https://github.com/jwtk/jjwt/issues/392) found in the DEFLATE compression 
+codec implementation.
+
 ### 0.10.5
 
 This patch release fixed an Android `org.json` library compatibility [issue](https://github.com/jwtk/jjwt/issues/388).
